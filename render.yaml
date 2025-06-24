@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: telegram-music-bot
+    env: python
+    buildCommand: ""
+    startCommand: python bot.py
