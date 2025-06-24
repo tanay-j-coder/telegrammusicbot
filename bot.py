@@ -53,6 +53,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         'quiet': True,
         'geo_bypass': True,
         'nocheckcertificate': True,
+        'cookiefile': 'cookies.txt', 
     }
 
     try:
